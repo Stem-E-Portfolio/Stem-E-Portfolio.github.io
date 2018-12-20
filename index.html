@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<ul>
+  <li><a href="stuff.html">Index</a></li>
+  <li style="float:right"class="active"><a href="Stuff.html"style="color:lime">Home</a></li>
+   <li class="dropdown">
+  <a href="javascript:void(0)" class="dropbtn">Content</a>
+   <div class="dropdown-content">
+   <a href="Tech 13-14.html">Tech 13-14</a>
+   <a href="Tech 14-15.html">Tech 14-15</a>
+   <a href="Tech 15-16.html">Tech 15-16</a>
+   <a href="Tech 16-17.html">Tech 16-17</a>
+   <a href="Tech 17-18.html">Tech 17-18</a>
+    </div>
+	</li>
+</ul>
+<style>
+
+</style>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+function random_bg_color() {
+    var x = Math.floor(Math.random() * 256);
+    var y = Math.floor(Math.random() * 256);
+    var z = Math.floor(Math.random() * 256);
+    var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+ console.log(bgColor);
+  
+    document.body.style.background = bgColor;
+    }
+
+random_bg_color();
+
+</script>
+</head>
+<body>
+<button onclick="random_bg_color()" class="button">Backround Color</button>
+</body>
+</html>

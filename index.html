@@ -30,7 +30,7 @@ function random_bg_color() {
     }
 
 random_bg_color();
-function Jq? () {
+window.onload = function() {
     if (window.jQuery) {  
         // jQuery is loaded  
         alert("Yeah!");
@@ -39,6 +39,12 @@ function Jq? () {
         alert("Doesn't Work");
     }
 }
+function Check () {
+if (jQuery) {
+    alert("jquery is loaded");
+} else {
+    alert("Not loaded");
+}	
 }
 function CopyPaste() {
   var copyText = document.getElementById("myInput");
@@ -52,6 +58,6 @@ function CopyPaste() {
 <button onclick="random_bg_color()" class="button">Backround Color</button>
 <input type="text" value="" id="myInput">
 <button onclick="CopyPaste()" class"button">Copy text</button>
-<button onclick="Jq?()" class"button">Jquery</button>
+<button onclick="Check()" class"button">Jquery</button>
 </body>
 </html>

@@ -105,14 +105,14 @@ button {
 }
 defaultTextBox {
     padding: 0;
-    height: 30px;
-    position: relative;
+    height: 40px;
+    position: absolute;
     left: 0;
     outline: none;
-    border: 1px solid #cdcdcd;
-    border-color: rgba(0,0,0,.15);
-    background-color: white;
-    font-size: 16px;
+    border: 1px solid #828282;
+    border-color: rgba(0,0,0,0);
+    background-color: grey;
+    font-size: 12px;
 }
 advancedSearchTextbox {
     width: 526px;

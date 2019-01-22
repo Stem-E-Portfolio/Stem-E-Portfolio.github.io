@@ -1,1 +1,21 @@
-
+<html>
+ <head>
+   <label>
+<input id="accepted1" type="checkbox" /> I acknowledge The Html logic bomb 
+</label>
+   <form>
+<button class="btn btn-primary" type="submit" id="id_complete" name="save" disabled="disabled" onclick="window.location.href='https://Stem-E-Portfolio.github.io/index.html'" />>Complete Order</button>
+   </form>
+   <style>
+     background-color:#cecece
+   </style>
+   <script>
+     $('#accepted1').click(function () {
+  if ($('#accepted1:checked').length == 1)
+    $('#id_complete').removeAttr('disabled');
+  else
+    $('#id_complete').attr('disabled','disabled');
+});
+   </script>  
+  </head> 
+</html>

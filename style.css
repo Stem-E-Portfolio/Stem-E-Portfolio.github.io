@@ -27,19 +27,7 @@ li a:hover {
 .active {
   background-color: black;
 }
-.button {
-  background-color: #FFFFF;
-  border: none;
-  color: orange;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  font-family: "Times New Roman", Times, serif;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+
 li a, .dropbtn {
   display: inline-block;
   color: white;
@@ -72,7 +60,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   margin: 4px 2px;
   cursor: pointer;

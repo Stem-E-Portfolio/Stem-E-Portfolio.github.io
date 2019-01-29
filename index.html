@@ -24,7 +24,20 @@
 
 </style>
 <link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
 <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAksMegpLGALcxBLfQ2ZwHMUTphiF-j758",
+    authDomain: "project-5173167840363008471.firebaseapp.com",
+    databaseURL: "https://project-5173167840363008471.firebaseio.com",
+    projectId: "project-5173167840363008471",
+    storageBucket: "project-5173167840363008471.appspot.com",
+    messagingSenderId: "44094165478"
+  };
+  firebase.initializeApp(config);
+	
 function random_bg_color() {
     var x = Math.floor(Math.random() * 256);
     var y = Math.floor(Math.random() * 256);

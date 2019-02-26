@@ -1,7 +1,7 @@
 # _Stem-E-Portfolio.github.io
 **Thank you to:_
-[these people](https://github.com/particle-clicker/particle-clicker/graphs/contributors:Clicker)
-[these people](https://github.com/Stem-E-Portfolio/infinite-scroll/graphs/contributors:Infinite Scroll)
+[these people](https://github.com/particle-clicker/particle-clicker/graphs/contributors :Clicker)
+[these people](https://github.com/Stem-E-Portfolio/infinite-scroll/graphs/contributors :Infinite Scroll)
 W3 Schools
 W3 Schools
 W3 Schools
